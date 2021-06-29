@@ -3,7 +3,6 @@ import menuTemplate from '../templates/template.hbs';
 
 const menuContainer = document.querySelector(".js-menu");
 
-// Разметка
 const menuCards = menuTemplate(menu);
 
 menuContainer.innerHTML = menuCards;
